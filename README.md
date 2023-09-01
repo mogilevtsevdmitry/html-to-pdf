@@ -1,16 +1,14 @@
 # @webmogilevtsev/html-to-pdf
 Эта библиотека позволяет создавать PDF-файлы из HTML-строк с использованием Node.js и Puppeteer.
 
-Установка
-Установите пакет с помощью npm:
-
+### Установка
 ```bash
 npm install @webmogilevtsev/html-to-pdf
 ```
-Использование
+### Использование
 Подключите библиотеку и используйте функцию htmlToPdf для создания PDF-файла.
 
-Пример
+### Пример
 ```javascript
 import htmlToPdf from '@webmogilevtsev/html-to-pdf';
 import fs from 'fs';
