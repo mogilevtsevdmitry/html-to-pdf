@@ -14,15 +14,13 @@ npm install @webmogilevtsev/html-to-pdf
 ```javascript
 import htmlToPdf from '@webmogilevtsev/html-to-pdf';
 import fs from 'fs';
-import { promisify } from 'util';
-
-const writeFileAsync = promisify(fs.writeFile);
+import { writeFile } from 'fs/promises';
 
 async function generatePdf() {
   const htmlString = '<h1>Привет, мир!</h1>';
   const pdfBuffer = await htmlToPdf(htmlString);
 
-  await writeFileAsync('output.pdf', pdfBuffer);
+  await writeFile('output.pdf', pdfBuffer);
   console.log('PDF создан!');
 }
 
