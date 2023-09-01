@@ -1,6 +1,6 @@
 {
   "name": "@webmogilevtsev/html-to-pdf",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Generate PDF Buffer from HTML string",
   "main": "index.js",
   "scripts": {
@@ -13,9 +13,9 @@
   },
   "keywords": [
     "pdf",
-    "to",
-    "pdf",
     "html",
+    "conversion",
+    "html to pdf",
     "generator"
   ],
   "author": "Mogilevtsev Dmitry <webmogilevtsev@ya.ru>",
