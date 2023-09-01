@@ -1,0 +1,29 @@
+{
+  "name": "@webmogilevtsev/html-to-pdf",
+  "version": "1.0.0",
+  "description": "Generate PDF Buffer from HTML string",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mogilevtsevdmitry/html-to-pdf.git"
+  },
+  "keywords": [
+    "pdf",
+    "to",
+    "pdf",
+    "html",
+    "generator"
+  ],
+  "author": "Mogilevtsev Dmitry <webmogilevtsev@ya.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mogilevtsevdmitry/html-to-pdf/issues"
+  },
+  "homepage": "https://github.com/mogilevtsevdmitry/html-to-pdf#readme",
+  "dependencies": {
+    "puppeteer": "^21.1.1"
+  }
+}
